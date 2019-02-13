@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ales Mraz",
+      "authorEmail": "alesmraz@email.cz",
+      "authorUrl": ""
+    }
+  }
+}

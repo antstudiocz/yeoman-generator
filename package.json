@@ -1,0 +1,34 @@
+{
+  "name": "@antstudiocz/yeoman-generator",
+  "version": "0.0.4",
+  "description": "create new nette component",
+  "homepage": "",
+  "author": {
+    "name": "Ales Mraz",
+    "email": "am@antstudio.cz"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "main": "generators/app/index.js",
+  "keywords": [
+    "nette",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 7.6.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yeoman-generator": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antstudiocz/yeoman-generator"
+  },
+  "license": "MIT"
+}
