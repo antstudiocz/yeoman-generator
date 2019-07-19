@@ -3,8 +3,6 @@
 
 **required: node version 7.6+, npm**
 
-Ready only for Drym3 projects.
-
 Component auto add to git with git add command.
 
 ## Installation
@@ -13,7 +11,7 @@ First, install [Yeoman](http://yeoman.io) and generator-nette-component using [n
 
 ```bash
 npm install -g yo
-npm install -g https://git.antstudio.cz/core/yeoman-generator/repository/archive.tar.gz
+npm install -g @antstudiocz/yeoman-generator
 ```
 
 Then generate your new project:
