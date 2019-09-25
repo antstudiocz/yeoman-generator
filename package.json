@@ -1,6 +1,6 @@
 {
   "name": "@antstudiocz/yeoman-generator",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "create new nette component",
   "homepage": "",
   "author": {
@@ -23,6 +23,7 @@
     "npm": ">= 7.6.0"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "shelljs": "^0.8.3",
     "yeoman-generator": "^2.0.1"
   },
