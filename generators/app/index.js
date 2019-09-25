@@ -70,6 +70,7 @@ module.exports = class extends Generator {
       this.templatePath(`component.php`),
       this.destinationPath(`${config.path}/${this.options.name}/${this.options.name}.php`), {
         component: this.options.name,
+        componentLower: this._lowerCaseFirstLetter(this.options.name),
         config: config
       }
     )

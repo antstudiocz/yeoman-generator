@@ -21,7 +21,7 @@ final class <%= component %> extends UI\Control
 
 	public function render(): void
 	{
-		$this->template->setFile(__DIR__ . '/<%= component.toLowerCase() %>.latte');
+		$this->template->setFile(__DIR__ . '/<%= componentLower %>.latte');
 		$this->template->render();
 	}
 
