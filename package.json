@@ -1,5 +1,5 @@
 {
-  "name": "@antstudiocz/yeoman-generator",
+  "name": "@antstudiocz/generator-nette-component",
   "version": "0.0.7",
   "description": "create new nette component",
   "homepage": "",
